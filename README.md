@@ -1,9 +1,9 @@
-# Título do Trabalho 
+# Detecção de extintores de incêndio
 
 ## Introdução
 
 ### Identificação 
-* Apresentar os membros da equipe (nome e mátricula). 
+* Adriando de Arruda Pereira Filho - 20220025597. 
 * Colocar o link para o vídeo da apresentação do trabalho. 
 
 ### Informações Gerais 
