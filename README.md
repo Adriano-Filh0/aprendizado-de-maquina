@@ -15,20 +15,15 @@ Este projeto tem como objetivo criar um sistema que identifique e reconheça ext
 
 * Descrever a base de dados.
 
-Para o treinamento do modelo de detecção de extintores de incêndio, foram utilizados dois datasets já existentes da plataforma [Roboflow](https://roboflow.com/) que fornecem imagens anotadas para a detecção de extintores em diferentes cenários.
+Para o treinamento do modelo de detecção de extintores de incêndio, foi utilizado um dataset já existente da plataforma [Roboflow](https://roboflow.com/) que fornece imagens anotadas para a detecção de extintores em diferentes cenários.
 
-1. [Extinguisher Computer Vision Project](https://universe.roboflow.com/project-9mb4j/extinguisher-cl4yq-ynvpd/dataset/1)
-* Quantidade de imagens: 5529
-* Anotações: As imagens estão anotadas com caixas delimitadoras e a classe “fire_extinguisher”.
-<div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/00611911-e3a5-4af1-b422-aad826382feb" width="300" />
-  <img src="https://github.com/user-attachments/assets/3e3c520d-2032-4d1f-9078-1153f59abb65" width="300" />
-</div>
-
-
-2. [Fire Extinguisher Detect Computer Vision Project](https://universe.roboflow.com/fire-extinguisher-detect-ddy5c/fire-extinguisher-detect)
+Dataset: [Fire Extinguisher Detect Computer Vision Project](https://universe.roboflow.com/fire-extinguisher-detect-ddy5c/fire-extinguisher-detect)
 * Quantidade de imagens: 9636
 * Anotações: As imagens estão anotadas com caixas delimitadoras e a classe “fire_extinguisher”.
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/3e3c520d-2032-4d1f-9078-1153f59abb65" width="300" />
+  <img src="" width="300" />
+</div>
 
 ## Metodologia 
 * Explicar quais técnicas de _machine learning_ (ML) que você está trabalhando. 
