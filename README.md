@@ -43,9 +43,16 @@ O modelo final foi testado em um conjunto de dados de teste, que não foi utiliz
 * Caso tenha selecionado atributos, explicar a motivação para a seleção de tais atributos. 
 
 ## Códigos 
+```python
+# Importando a biblioteca necessária.
+from ultralytics import YOLO
+# instanciando o yolo11.
+model = YOLO("yolo11x.pt")
+# Coloca o modelo em modo de treinamento
+model.train(data="/home/adriano/am/data_4/Fire-Extinguisher-Detect-1/data.yaml", epochs=40, imgsz=640, device=0)
+```
 * Mostrar trechos de códigos mais importantes e explicações.  
-* Informar o link para acessar o código. 
-
+* Informar o link para acessar o código.
 ## Experimentos 
 * Descrever em detalhes os tipos de testes executados. 
 * Descrever os parâmentros avaliados. 
