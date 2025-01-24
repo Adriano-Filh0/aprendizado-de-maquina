@@ -29,15 +29,7 @@ Dataset: [Fire Extinguisher Detect Computer Vision Project](https://universe.rob
 ### Técnicas de Machine Learning (ML)
 Utilizamos a técnica de aprendizado profundo com a arquitetura YOLO (You Only Look Once) para realizar a detecção de extintores de incêndio em imagens ou videos. O YOLO é um modelo de detecção em tempo real que realiza a previsão de múltiplos objetos em uma imagem com uma única passagem pela rede neural. Ele é altamente eficiente, pois divide a imagem em uma grade e, em cada célula, faz previsões sobre a presença de objetos e suas respectivas localizações (caixas delimitadoras).
 ### Etapas do treinamento e teste
-O dataset utilizado foi obtida da plataforma Roboflow. As imagens já estavam anotadas com as caixas delimitadoras e rótulos corretos.
-
-Os dados foram divididos em três conjuntos: treinamento (70% das imagens), validação (20%) e teste (10%).
-
-As imagens foram redimensionadas para um tamanho de 640x640, conforme especificado no dataset.
-
-Após o treinamento, o modelo foi avaliado para monitorar o desempenho e ajustar os hiperparâmetros, como a taxa de aprendizado e o número de épocas.
-
-O modelo final foi testado em um conjunto de dados de teste, que não foi utilizado durante o treinamento. 
+OO dataset utilizado foi obtido da plataforma Roboflow, com as imagens já anotadas com caixas delimitadoras e rótulos corretos. Os dados foram divididos em três conjuntos: treinamento (70% das imagens), validação (20%) e teste (10%). As imagens foram redimensionadas para 640x640, conforme especificado no dataset. Após o treinamento, o modelo foi avaliado para monitorar o desempenho e ajustar hiperparâmetros, como a taxa de aprendizado e o número de épocas, sendo finalmente testado em um conjunto de dados separado, que não foi utilizado durante o treinamento.
 * Explicar quais técnicas de _machine learning_ (ML) que você está trabalhando. 
 * Explicar as etapas do treinamento e teste. 
 * Caso tenha selecionado atributos, explicar a motivação para a seleção de tais atributos. 
